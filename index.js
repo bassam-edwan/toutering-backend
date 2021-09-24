@@ -17,7 +17,6 @@ app.use(express.json())
 app.use('/api' ,route)
 
 
-app.listen(port, function(){
+app.listen(process.env.PORT || port, () => {
     console.log("server is now listening at port 500")
 })
-/*process.env.PORT || port,function()*/
