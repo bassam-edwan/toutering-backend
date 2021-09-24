@@ -6,7 +6,7 @@ const cors = require('cors')
 const port = 500
 
 
-const url = "mongodb+srv://hello:<password>@cluster0.hpaam.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const url = "mongodb+srv://hello:1234@cluster0.hpaam.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 app.use(cors())
 m.connect(url)
 .then(function () {
